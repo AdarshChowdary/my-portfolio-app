@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 export default function Footer() {
   const router = useRouter();
   return (
-    <footer className="mx-auto dark:bg-[#09090B] flex flex-col gap-5 w-full max-w-7xl px-5 py-3 md:px-8 space-y-4 md:space-y-0 md:space-x-8">
-      <div className="border-[1px] rounded-lg dark:bg-[#09090B] px-5 py-3 md:px-8 flex flex-col md:flex-row justify-between items-center gap-5">
+    <footer className="relative mx-auto dark:bg-[#09090B] bg-white flex flex-col gap-5 w-full max-w-7xl px-5 py-3 md:px-8 space-y-4 md:space-y-0 md:space-x-8 border-t">
+      <div className="border-[1px] rounded-lg dark:bg-[#09090B] bg-white px-5 py-3 md:px-8 flex flex-col md:flex-row justify-between items-center gap-5 backdrop-blur-lg">
         <div className="flex flex-col gap-3 items-center justify-center">
           <h1 className="text-xl md:text-3xl font-bold font-cormorant">
             Say Hello!
@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
         <ContactForm />
       </div>
-      <div className="flex flex-row justify-center items-center px-5 md:px-0 py-3 mt-0">
+      <div className="flex flex-row justify-center items-center px-5 md:px-0 py-3 mt-0 bg-white dark:bg-[#09090B]">
         <p className="text-sm md:text-base md:font-medium text-center">
           Copyright © 2024 Adarsh. All rights reserved.
         </p>
