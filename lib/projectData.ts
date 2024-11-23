@@ -10,7 +10,7 @@ export const projects = [
     title: "Project 2",
     description: "Description of Project 2",
     image: "/Nasa-react-app.jpg",
-    liveLink: "https://nasa-react-app-seven.vercel.app/",
+    liveLink: "https://adarsh-nasa-react-app.vercel.app/",
     githubLink: "https://github.com/AdarshChowdary/nasa-react-app",
   },
   {
